@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'noto-sans', sans-serif;
+    text-align: center;  
+    letter-spacing: 3px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width:100%;
+	height:auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    background-color: #0949135e;
+    top: 0;
+    width: fit-content;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 5px;    
+}
+.logo {
+    width: 6%;    
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner img {
+    max-width:100%;
+	height:auto;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#quem-somos {
+    background-color: white;
+    color: #094913;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.conteudo {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 500;
+} 
+h2 {
+    font-size: 40px;
+    letter-spacing: 11px;
+}
+hr {
+    width: 80%;
+    border: solid 1px;
+}
+.texto-conteudo {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 22px;
+}
+
+#equipe {
+    background-color: white;
+    color: #094913;
+}
+.cards-equipe {
+    display: flex;
+    gap: 65px;
+}
+.card-equipe-indi img {
+    margin-top: 90px;
+    position: relative;
+    width: 42%;
+    border: solid 4px white;
+    border-radius: 360px;
+}
+.img-campo {
+    background-color: #094913;
+    height: 30%;
+    width: 352px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-equipe-indi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    
+}
+.informacoes {
+    width: 350px;
+    height: auto;
+    border: solid 1px #06310c;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.informacoes-cont {
+    padding-top: 100px;
+    color: #094913;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.informacoes-cont img {
+    margin: 0;
+    border: 0;
+    width: 15%;
+}
+.nome-funcao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.acesso-perfil {
+    background: none;
+    font-weight: 500;
+    color: #094913;
+    border: solid 1px #094913;
+    padding: 25px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-bottom: 25px;
+}
+.acesso-perfil:hover {
+    color: white;
+    background: #094913;
+}
+
+span {
+    font-size: 18px;
+    letter-spacing: 4px;    
+}
+.nome-equipe {
+    font-weight: 800;
+}
+.funcao-equipe {
+    font-weight: 600;
+    font-size: 13px;
+}
+#servicos {
+    background-color: #094913;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.multiple-items {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+}
+.card-servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card-servicos p {
+    font-size: 14px;
+    height: 100%;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card-servicos {
+    background: linear-gradient(145.51deg, #26AA3A 20.74%, rgba(73, 220, 96, 0.37) 77.67%);
+}
+
+.acesso-servicos {
+    background: none;
+    font-weight: 500;
+    color: white;
+    border: solid 1px white;
+    padding: 25px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.acesso-servicos:hover {
+    background: white;
+    color: #094913;
+}
+#contatos {
+    background-color: #094913;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    gap: 80px;
+}
+#contatos .conteudo {
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
+}
+
+.contatos-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.contatos-1 div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#contatos-1-mod {
+    align-items: end;
+}
+.contato-titulo {
+    border: 2px solid white;
+    width: fit-content;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.icone-contato {
+    font-size: 19px;
+    letter-spacing: 0px;
+}
